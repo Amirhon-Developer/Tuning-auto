@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&display=swap");
+.Footer-img img {
+  width: 100px;
+}
+.Glava-Footer {
+  font-family: "DM Sans", sans-serif;
+}
+.icon {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Glava-Footer ul {
+  list-style: none;
+}
+.Glava-Footer {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #181818;
+  color: #fff;
+  line-height: 31px;
+}
+@media only screen and (max-width: 380px) {
+  .Glava-Footer {
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    height: max-content;
+    width: 100% !important;
+  }
+  img {
+    width: 73px;
+    margin: auto;
+  }
+  .Footer-img .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25rem;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .Glava-Footer {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    height: max-content;
+    width: 100% !important;
+  }
+  .Footer-img {
+    margin: auto;
+  }
+  .Footer-img .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .Glava-Footer {
+    font-size: 18px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+    width: 100% !important;
+  }
+  .Footer-img {
+    margin: auto;
+  }
+  .Footer-img .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .Glava-Footer {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    height: max-content;
+    width: 100% !important;
+  }
+  .Footer-img {
+    margin: auto;
+  }
+  .Footer-img .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .Glava-Footer {
+    font-size: 18px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    height: max-content;
+    width: 100% !important;
+  }
+  .Footer-img {
+    margin: auto;
+  }
+  .Footer-img .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+  }
+}

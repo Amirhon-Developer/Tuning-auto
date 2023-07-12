@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=DM+Sans:ital@1&family=Playfair+Display:wght@500&family=Spectral:ital@1&family=Tillana:wght@500&display=swap");
+.about {
+  display: flex;
+}
+.text {
+  width: 100%;
+}
+.koment h3 {
+  text-align: center;
+}
+
+.koment p {
+  margin-bottom: 300px;
+  text-align: center;
+} .text-1 p {
+  margin-top: 10px;
+}
+.about img {
+  padding-top: 70px;
+  width: 97%;
+  height: 70vh;
+}
+.about p {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+}
+.info {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+}
+.info-1 {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+}
+.stoimost {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+}
+.koment {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+}
+.about span {
+  font-weight: 700;
+}
+.icon {
+  margin: 0;
+  padding: 0;
+}
+.icon img {
+  width: 360px;
+  height: 150px;
+  padding: 0;
+}
+.koment img {
+  width: 80%;
+  height: 70vh;
+  justify-content: center;
+}
+.text-1 {
+padding-top: 40px;
+}
+@media only screen and (max-width: 376px) {
+  .about img {
+    width: 145px;
+    height: 20vh;
+  } .about {
+    display: block;
+  }
+}

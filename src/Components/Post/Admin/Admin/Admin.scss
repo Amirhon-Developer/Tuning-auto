@@ -1,0 +1,285 @@
+.ooooo {
+  margin-top: 60px;
+  .ooooo__h1 {
+    font-weight: 700;
+    text-align: center;
+    color: rgb(91, 68, 68);
+  }
+  .registr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .registr__input {
+      margin-top: 20px;
+      height: 40px;
+      width: 650px;
+      border-radius: 15px;
+      padding: 10px;
+      font-weight: 800;
+      border: 3px solid rgb(104, 62, 62);
+    }
+    .register__btn {
+      width: 600px;
+      margin-top: 30px;
+      height: 50px;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: 800;
+      border: 3px solid rgb(104, 62, 62);
+      transition: 0.2s;
+    }
+    .register__btn:hover {
+      width: 600px;
+      margin-top: 30px;
+      height: 50px;
+      border-radius: 20px;
+      color: white;
+      background-color: rgb(104, 62, 62);
+    }
+  }
+}
+.ggg__btns {
+  display: flex;
+  gap: 20px;
+  .price__btn1 {
+    width: 80px;
+    border: none;
+    background-color: rgb(104, 62, 62);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+}
+.cardPlants{
+  padding-top: 45px;
+  border-radius: 10px;
+border: 1px solid ;
+width: 300px;
+height: 30vh;
+text-align: center;
+.ggg h1{
+font-size: 15px;
+
+}
+}
+.price__btn1{
+
+  margin-left: 40px;
+  }
+.salom{
+display: flex;
+justify-content: space-evenly;
+padding-top: 40px;
+}
+@media only screen and (max-width: 690px) {
+  .ooooo {
+    margin-top: 60px;
+    .ooooo__h1 {
+      font-weight: 700;
+      text-align: center;
+      color: rgb(104, 62, 62);
+    }
+    .registr {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .registr__input {
+        margin-top: 20px;
+        height: 40px;
+        font-size: 12px;
+        width: 60%;
+        border-radius: 15px;
+        padding: 10px;
+        font-weight: 800;
+        border: 3px solid rgb(104, 62, 62);
+      }
+      .register__btn {
+        width: 100%;
+        margin-top: 30px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 800;
+        border: 3px solid rgb(104, 62, 62);
+        transition: 0.2s;
+      }
+      .register__btn:hover {
+        width: 600px;
+        margin-top: 30px;
+        height: 50px;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(104, 62, 62);
+      }
+    }
+  }
+  .ggg__btns {
+    display: flex;
+    gap: 20px;
+    .price__btn1 {
+      width: 80px;
+      border: none;
+      background-color: rgb(104, 62, 62);
+      color: white;
+      font-weight: 700;
+      border-radius: 10px;
+    }
+  }
+}
+.registr-izmeneniya{
+text-align: center;
+}
+.h12{
+  padding-top: 30px;
+text-align: center;
+}
+.registr__input {
+  margin-top: 20px;
+  height: 40px;
+  font-size: 12px;
+  width: 58%;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: 800;
+  border: 3px solid rgb(104, 62, 62);
+}
+.register__btn {
+  width: 55%;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 800;
+  border: 3px solid rgb(104, 62, 62);
+  transition: 0.2s;
+}
+.register__btn:hover {
+  width: 600px;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(104, 62, 62);
+}
+// .ooooo {
+//   margin-top: 60px;
+//   .ooooo__h1 {
+//     font-weight: 700;
+//     text-align: center;
+//     color: rgb(91, 68, 68);
+//   }
+//   .registr {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+//     .registr__input {
+//       margin-top: 20px;
+//       height: 40px;
+//       width: 650px;
+//       border-radius: 15px;
+//       padding: 10px;
+//       font-weight: 800;
+//       border: 3px solid rgb(104, 62, 62);
+//     }
+//     .register__btn {
+//       width: 600px;
+//       margin-top: 30px;
+//       height: 50px;
+//       border-radius: 20px;
+//       font-size: 20px;
+//       font-weight: 800;
+//       border: 3px solid rgb(104, 62, 62);
+//       transition: 0.2s;
+//     }
+//     .register__btn:hover {
+//       width: 600px;
+//       margin-top: 30px;
+//       height: 50px;
+//       border-radius: 20px;
+//       color: white;
+//       background-color: rgb(104, 62, 62);
+//     }
+//   }
+// }
+// .ggg__btns {
+//   display: flex;
+//   gap: 20px;
+//   .price__btn1 {
+//     width: 80px;
+//     border: none;
+//     background-color: rgb(104, 62, 62);
+//     color: white;
+//     font-weight: 700;
+//     border-radius: 10px;
+//   }
+// }
+// .cardPlants{
+//   padding-top: 45px;
+//   border-radius: 10px;
+// border: 1px solid ;
+// width: 300px;
+// height: 30vh;
+// text-align: center;
+// .ggg h1{
+// font-size: 15px;
+
+// }
+// }
+// .price__btn1{
+
+//   margin-left: 40px;
+//   }
+// .salom{
+// display: flex;
+// justify-content: space-evenly;
+// padding-top: 40px;
+// }
+// @media only screen and (max-width: 690px) {
+
+//       .registr__input {
+//         margin-top: 20px;
+//         height: 40px;
+//         font-size: 12px;
+//         width: 100%;
+//         border-radius: 15px;
+//         padding: 10px;
+//         font-weight: 800;
+//         border: 3px solid rgb(104, 62, 62);
+//       }
+//       .register__btn {
+//         width: 100%;
+//         margin-top: 30px;
+//         height: 50px;
+//         border-radius: 20px;
+//         font-size: 16px;
+//         font-weight: 800;
+//         border: 3px solid rgb(104, 62, 62);
+//         transition: 0.2s;
+//       }
+//       .register__btn:hover {
+//         width: 600px;
+//         margin-top: 30px;
+//         height: 50px;
+//         border-radius: 20px;
+//         color: white;
+//         background-color: rgb(104, 62, 62);
+//       }
+//     }
+  
+//   .ggg__btns {
+//     display: flex;
+//     gap: 20px;
+//     .price__btn1 {
+//       width: 80px;
+//       border: none;
+//       background-color: rgb(104, 62, 62);
+//       color: white;
+//       font-weight: 700;
+//       border-radius: 10px;
+//     }
+//   }
+
+

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Spectral:ital@1&family=Tillana:wght@500&display=swap");
+
+.info-clening {
+  padding-top: 42px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: inherit;
+  border: 0;
+  outline: 0;
+}
+.info-clening {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+.info-clening img {
+  width: 44%;
+  height: 60vh;
+}
+.Avto-salon {
+  padding-top: 50px;
+}

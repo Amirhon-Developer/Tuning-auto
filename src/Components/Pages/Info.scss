@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Spectral:ital@1&family=Tillana:wght@500&display=swap");
+.container {
+  width: 100%;
+  margin: auto;
+}
+.O-nas img {
+  width: 100%;
+  padding-top: 40px;
+  max-width: 100%;
+  height: auto;
+}
+iframe{
+width: 100%;
+height: 60vh;
+}
+.O-nas-text {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+  padding-top: 40px;
+}
+.O-nas-text1{
+padding-top: 20px;
+}
+.vidio{
+padding-top: 20px;
+}
+@media only screen and (max-width:376px) {
+    .vidio{
+    width: 374px;
+    }
+}

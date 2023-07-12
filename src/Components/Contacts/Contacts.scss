@@ -1,0 +1,47 @@
+.contac {
+  padding-top: 40px;
+  line-height: 27px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Spectral", serif;
+  font-family: "Tillana", cursive;
+}
+.adres h2 {
+  color: #e43315;
+}
+.phone h3 {
+  color: #e43315;
+}
+.email h3 {
+  color: #e43315;
+}
+.adres1 h2 {
+  color: #e43315;
+}
+.phone1 h3 {
+  color: #e43315;
+}
+.email1 h3 {
+  color: #e43315;
+}
+.contac {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media only screen and (max-width: 376px) {
+  .contac {
+    display: block;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .contac {
+    display: block;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contac {
+    gap: 104px;
+  }
+}

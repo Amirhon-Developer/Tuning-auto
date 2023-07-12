@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 100%;
+}
+.Glava-onlayn {
+  background-color: #000;
+  height: 91.4vh;
+  width: 100%;
+}
+.inp {
+  padding-top: 30px;
+  width: 62%;
+  margin: auto;
+}
+.inp input {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 30px;
+}
+.logo-imge {
+  padding-top: 20px;
+  width: 12%;
+  margin: 0 auto;
+}
+.select {
+  padding-top: 20px;
+  width: 62%;
+  margin: auto;
+}
+.select select {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 30px;
+}
+///tovars
+.tovars1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-tovar {
+  width: 20%;
+}
+.cobalt {
+  width: 24%;
+}
+.tovar img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tovar{
+margin-top: 40px;
+}
+.tovar {
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.tovar h1 {
+  font-size: 17px;
+}
+.tovar h2 {
+  font-size: 17px;
+}
+.tovar h3 {
+  font-size: 17px;
+}
+.tovar h4 {
+  font-size: 17px;
+}
+.tovar p {
+  font-size: 17px;
+}
+// tovar 1
+.tovar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-tovar1 {
+  width: 20%;
+}
+.treker {
+  width: 24%;
+}
+.tovar img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tovar {
+  display: block;
+  border: 1px solid #fff;
+  text-align: center;
+  
+  color: #fff;
+}
+.tovar h1 {
+  font-size: 17px;
+}
+.tovar h2 {
+  font-size: 17px;
+}
+.tovar h3 {
+  font-size: 17px;
+}
+.tovar h4 {
+  font-size: 17px;
+}
+.tovar p {
+  font-size: 17px;
+}
+//tovar2
+.tovar__link {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  width: 20%;
+  height: 45vh;
+}
+
+
+@media only screen and (max-width:376px){
+  .tovars1{
+display: block;
+width: 500px;
+
+  }
+  
+}
+@media only screen and (max-width:415px){
+  .tovars1{
+display: block;
+
+width: 500px;
+
+  }
+  
+}
+
+

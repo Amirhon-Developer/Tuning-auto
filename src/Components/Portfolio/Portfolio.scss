@@ -1,0 +1,124 @@
+.Live-photos {
+  width: 500px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.search :hover {
+  opacity: 1;
+}
+
+.search > * {
+  transform: translateY(25px);
+  transition: transform 0.6s;
+}
+
+.search:hover > * {
+  transform: translateY(0px);
+}
+
+.PortfolioModal__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 20px;
+  justify-content: center;
+  position: relative;
+
+  & > * {
+    flex-shrink: 0;
+  }
+}
+
+.modal--PortfolioModal-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+img {
+  width: 30%;
+  margin: 0;
+}
+
+// custom
+
+.custom {
+  height: 100vh;
+  padding-top: 6px;
+
+  &__link {
+    width: 40%;
+    display: inline-block;
+    justify-content: space-around;
+    height: auto;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.Link_foto {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.Link_foto2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.Link_foto3 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+// @media only screen and(max-width:376px){
+// .custom{
+// display: block;
+// }
+// }
+// @media only screen and(max-width:415px){
+//   .custom{
+//   display: block;
+//   }
+//   }
+@media only screen and (max-width: 376px) {
+  .custom {
+    width: 374px;
+  }
+}
